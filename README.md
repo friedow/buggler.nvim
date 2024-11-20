@@ -22,10 +22,10 @@ Just add a keybind and start toggling terminals.
 
 ```lua
 vim.keymap.set("n", "<C-1>", function()
-	require("buggler").toggle_terminal_buffer("Terminal 1")
+  require("buggler").toggle_terminal_buffer("Terminal 1")
 end)
 
 vim.keymap.set("n", "<C-2>", function()
-	require("buggler").toggle_terminal_buffer("Terminal 2")
+  require("buggler").toggle_terminal_buffer("Terminal 2")
 end)
 ```
